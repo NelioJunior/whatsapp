@@ -1,0 +1,23 @@
+{
+    "name": "nelljr/whatsapp",
+    "autoload": {
+        "psr-4": {
+            "Nelljr\\Whatsapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nelljunior",
+            "email": "nelljunior@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.0",
+        "twilio/sdk": "^8.3",
+        "guzzlehttp/psr7": "^2.7",
+        "slim/psr7": "^1.6",
+        "php-di/php-di": "^6.4",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0"
+    }
+}
